@@ -2,7 +2,7 @@ import { defineCollection, defineConfig } from "@content-collections/core";
 import { compileMDX } from "@content-collections/mdx";
 import remarkGfm from "remark-gfm";
 import { z } from "zod";
-import { remarkCodeMeta } from "./src/lib/remark-code-meta.ts";
+import { remarkCodeMeta } from "./src/lib/remark-code-meta";
 
 const posts = defineCollection({
     name: "posts",
